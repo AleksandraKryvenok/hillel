@@ -18,8 +18,6 @@ function Accordion(element){
 };
 
 const htmlAccordion = new Accordion(document.querySelector("#html"));
-htmlAccordion.title.onclick = htmlAccordion.open;
-
 const cssAccordion = new Accordion(document.querySelector("#css"));
 const jsAccordion = new Accordion(document.querySelector("#js"));
 
